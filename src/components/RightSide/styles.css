@@ -1,0 +1,12 @@
+main{
+    flex-grow: 1;
+    height: 100%;
+    padding: 2rem;
+}
+
+main > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

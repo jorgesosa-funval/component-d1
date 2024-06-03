@@ -5,9 +5,10 @@
      cursor: pointer;
      padding: .3rem 1rem;
      border-radius: .3rem;
+     
      &:hover{
         background-color: #223699;
-        
+
      }
 }
 .user_item > img{

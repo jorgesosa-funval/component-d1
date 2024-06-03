@@ -5,11 +5,14 @@ function LeftSide() {
         <aside>
             <h1>Usuarios</h1>
             <ul>
-                <UserItem/>
-                <UserItem/>
-                <UserItem/>
-                <UserItem/>
-                <UserItem/>
+                <UserItem
+                    name="Gabriel "
+                    apellido="Ferrin"
+                />
+                <UserItem name="Jennifer" />
+                <UserItem name="Alberto" />
+                <UserItem name="Hyrum" />
+                <UserItem name="Sebastian" />
             </ul>
         </aside>
     )

@@ -1,0 +1,31 @@
+.message {
+    display: flex;
+    padding: .2rem;
+    gap: 1rem;
+    width: 60%;
+    align-items: center;
+}
+.message img {
+    border-radius: 100%;
+}
+.message_container {
+   flex-grow: 1;
+   background-color: rgba(205, 205, 205, 0.322);
+   padding: .5rem;
+   border-radius: .5rem;
+}
+
+.message_container > header {
+    display: flex;
+     align-items: center; 
+     justify-content: space-between;
+     width: 100%;
+}
+
+.message_container > p {
+    padding-block: .2rem;
+}
+
+.revese{
+    flex-direction: row-reverse;
+}
