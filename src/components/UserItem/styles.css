@@ -1,0 +1,15 @@
+.user_item{
+    display: flex;
+    align-items: center;
+     gap: 1rem;
+     cursor: pointer;
+     padding: .3rem 1rem;
+     border-radius: .3rem;
+     &:hover{
+        background-color: #223699;
+        
+     }
+}
+.user_item > img{
+    border-radius: 100%;
+}
